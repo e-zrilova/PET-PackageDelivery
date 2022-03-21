@@ -24,6 +24,10 @@ h1{
 p{
     margin: 0;
 }
+button{
+    outline: none;
+    border: none;
+}
 .wrapper {
     width: 100%;
     min-height: 1000px;
@@ -160,7 +164,7 @@ p{
 .track {
     position: absolute;
     z-index: 1;
-    bottom: -160px;
+    bottom: -323px;
     left: 50%;
     transform: translateX(-50%);
     max-width: 1489px;
@@ -204,7 +208,6 @@ p{
 }
 .track__input::placeholder {
     color: #9F9F9F;
-    
 }
 .track__btn{
     background: #21D8E3;
@@ -219,9 +222,9 @@ p{
     cursor: pointer;
 }
 .offer{
-    padding-top: 170px;
+    padding-top: 333px;
 }
-.offer__text{
+.text{
     font-weight: 500;
     font-size: 30px;
     line-height: 45px;
@@ -230,7 +233,7 @@ p{
     max-width: 193px;
     margin: 0 auto 10px;
 }
-.offer__title{
+.title{
     font-weight: 700;
     font-size: 52px;
     line-height: 78px;
@@ -252,6 +255,7 @@ p{
     background-color: #F6F8FF;
     border-radius: 20px;
     padding: 30px;
+    cursor: pointer;
 }
 .offer__card:hover{
     background-color: #5F5FFE;
@@ -291,4 +295,162 @@ p{
 .offer__card-description--mod{
     font-weight: 700;
     color: #172F53;
+}
+.discount{
+    margin: 240px auto 0;
+    max-width: 1615px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.discount__title{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 78px;
+    color: #172F53;
+    max-width: 854px;
+    margin-bottom: 45px;
+}
+.discount__description{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #7D7D7D;
+    max-width: 950px;
+    margin-bottom: 65px;
+}
+.discount__btn{
+    background: #21D8E3;
+    border-radius: 10px;
+    padding: 31px 73px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    cursor: pointer;
+}
+.discount__right{
+    background-image: url('/assets/img/disc-2.svg');
+    width: 552px;
+    height: 584px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+}
+.discount__right-decor{
+    position: absolute;
+}
+.discount__right-decor--5{
+    top: -75px;
+    left: -85px;
+}
+.discount__right-decor--1{
+    width: 25px;
+    height: 25px;
+    top: 113px;
+    right: 109px;
+}
+.discount__right-decor--2{
+    width: 30px;
+    height: 30px;
+    top: 226px;
+    left: 56px;
+}
+.discount__right-decor--4{
+    width: 20px;
+    height: 20px;
+    top: -80px;
+    right: 212px;
+}
+.discount__right-decor--3{
+    width: 39px;
+    height: 39px;
+    top: -60px;
+    right: 10px;
+}
+.discount__percent{
+    position: absolute;
+    top: -15px;
+    left: -20px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 115px;
+}
+.discount__percent--mod{
+    font-weight: 500;
+    top: 50px;
+    left: 0;
+}
+.partnership{
+    margin: 178px 0 185px;
+
+}
+.partnership__title{
+    max-width: 698px;
+}
+.partnership__wrapper{
+    background-color: #FFFFFF;
+    box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    max-width: 1489px;
+    padding: 105px 96px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer{
+    background-color: #172F53;
+    position: relative;
+    min-height: 815px;
+    padding: 95px 140px 95px 165px;
+    z-index: 2;
+}
+.footer nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer__decor{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}
+.footer__list{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.footer__item{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+    max-width: 366px;
+}
+.footer__item:first-child{
+    margin-top: 54px;
+}
+.footer__item:not(:last-child){
+    margin-bottom: 30px;
+}
+.footer__item a{
+    color: inherit;
+}
+.footer__mail{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
 }
