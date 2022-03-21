@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    margin: 0;
+}
+h1{
+    visibility: hidden;
+}
+.wrapper {
+    width: 100%;
+    min-height: 1000px;
+    background-color: #F6F8FF;
+    padding: 62px 142px 112px;
+}
+.header{
+    max-width: 1636px;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    width: 178px;
+    margin-right: 150px;
+}
+.list{
+    display: flex;
+    
+}
+
+.list__item{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    
+
+}
+.list__item:not(:last-child){
+    margin-right: 62px;
+}
+
+.list__item-text{
+    color: #172F53;
+}
+.list__icon{
+    width: 12px;
+    height: 6px;
+    margin-left: 15px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.navigation__link{
+    color: #172F53;
+    font-size: 20px;
+    line-height: 30px;
+}
+.navigation__link--btn{
+    padding: 10px 27px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.first-screen{
+    display: flex;
+    margin-top: 15px;
+}
+.first-screen__block-left{
+    max-width: 686px;
+    width: 100%;
+    margin-right: 211px;
+    padding-top: 100px;
+}
+.first-screen__title{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 108px;
+    color: #172F53;
+}
+.first-screen__description{
+    font-size: 30px;
+    line-height: 45px;
+    color: #7D7D7D;
+}
+.first-screen__block-right{
+    position: relative;
+    z-index: 1;
+}
+.block-decor{
+    position: absolute;
+    bottom: -35px;
+    right: -333px;
+    z-index: -2;
+    width: 863px;
+    height: 335px;
+    background: rgba(253, 62, 152, 0.2);
+}
+.first-screen__decor{
+    position: absolute;
+}
+.first-screen__decor--1{
+    top: 95px;
+    left: -80px;
+}
+.first-screen__decor--1, .first-screen__decor--6{
+    width: 96px;
+    height: 96px;
+}
+.first-screen__decor--2{
+    top: 160px;
+    right: -151px;
+}
+.first-screen__decor--3{
+    width: 39px;
+    height: 39px;
+    top: 80px;
+    right: -15px;
+}
+.first-screen__decor--4{
+    z-index: -1;
+    width: 175px;
+    height: 306px;
+    top: 133px;
+    right: -64px;
+}
+.first-screen__decor--5{
+    z-index: -1;
+    width: 240px;
+    height: 240px;
+    bottom: 38px;
+    left: -120px;
+}
+.first-screen__decor--6{
+    bottom: 85px;    
+    right: -80px;
+}
